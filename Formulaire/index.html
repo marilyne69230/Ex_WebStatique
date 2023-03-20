@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Les formulaires</title>
+</head>
+
+<body>
+    <h1>Les formulaires</h1>
+    <form action="#" method="get">
+        <div>
+            <label for="say">Quel salut voulez-vous addresser ?</label>
+            <input name="say" id="say" value="Salut Gros">
+        </div>
+        <div>
+            <label for="say">A qui voulez-vous l'adresser ?</label>
+            <input name="to " id="to" value="Emmanuel M.">
+        </div>
+        <div>
+            <button>Dire Bonjour</button>
+        </div>
+    </form>
+    <br>
+
+    <form method="get" action="">
+        <div>
+            <p>Cochez les fruits que vous aimez:</p>
+            <input type="checkbox" name="fraise" id="fraise"> <label for="fraise">fraise</label><br>
+            <input type="checkbox" name="framboise" id="framboise"> <label for="framboise">framboise</label><br>
+            <input type="checkbox" name="abricot" id="abricot"> <label for="abricot">abricot</label><br>
+            <input type="checkbox" name="banane" id="banane"> <label for="banane">banane</label>
+        </div>
+        <div>
+            <button>Valider</button>
+        </div>
+    </form>
+    <br>
+
+    <form method="get" action="">
+        <div>
+            <label for="fruits">Quel est votre fruit préféré ?</label><br>
+            <select name="fruits" id="fruits">
+                <optgroup label="Rouges">
+                    <option value="fraise">Fraise</option>
+                    <option value="framboise">Framboise</option>
+                </optgroup>
+                <optgroup label="Jaunes">
+                    <option value="abricot">Abricot</option>
+                    <option value="banane">Banane</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="Animal">Votre animal préféré ?</label><br>
+            <select name="Animal" id="Animal">
+                <option value="chat">Chat</option>
+                <option value="chien">Chien</option>
+                <option value="lapin">Lapin</option>
+                <option value="souris">Souris</option>
+            </select>
+        </div>
+        <div>
+            <label for="legumes">Légume préféré ?</label><br>
+            <select name="legumes" id="legumes">
+                <option value="courgette">Courgette</option>
+                <option value="carotte">Carotte</option>
+                <option value="pdt">Pomme de terre</option>
+                <option value="fenouil">Fenouil</option>
+            </select>
+        </div>
+        <div>
+            <button>Valider</button>
+        </div>
+
+    </form>
+    <br>
+
+    <h2>TP Formulaire</h2>
+    <form action="#" method="get">
+        <div>
+            <legend>Votre sexe</legend>
+
+            <label for="madame">Madame</label>
+            <input type="radio" id="madame" name="sexe">
+
+            <label for="monsieur">Monsieur</label>
+            <input type="radio" id="monsieur" name="sexe" checked>
+
+            <label for="autre">Autre</label>
+            <input type="radio" id="autre" name="sexe">
+        </div>
+        <br>
+        <div>
+            <label for="name">Votre nom :</label>
+            <input name="name" id="name" placeholder="Naili" required>
+        </div>
+        <div>
+            <label for="firstname">Votre prénom(s) : </label>
+            <input name="firstname" id="firstname" placeholder="Marilyne" required>
+        </div>
+        <br>
+        <div>
+            <label for="date">Votre date de naissance : </label>
+            <input type="date" id="date" name="date" placeholder="1999-12-28" min="1930-01-01" max="2004-12-31"
+                required>
+        </div>
+        <br>
+        <div>
+            <label for="children">Nombre d'enfants ?</label>
+            <input type="number" id="children" name="children" min="0" max="15">
+        </div>
+        <br>
+        <div>
+            <label for="nationalite">Quel est votre nationalité ?</label><br>
+            <select name="nationalite" id="nationalite" autocomplete="">
+                <option value="angleterre">Angleterre</option>
+                <option value="espagne">Espagne</option>
+                <option value="france">France</option>
+                <option value="portugal">Portugal</option>
+                <option value="venezuela" selected>Vénézuela</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="reset">
+            <input type="submit" value="Envoyer le formulaire">
+        </div>
+
+    </form>
+
+</body>
+
+</html>

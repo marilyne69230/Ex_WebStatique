@@ -1,0 +1,152 @@
+/* /GENERAL*/
+*{
+    padding: 0;
+    margin: 0;
+    color: white ;
+    
+}
+body {
+    background-color: rgb(62, 62, 62);
+}
+.corps {
+    width: 50%;
+    margin: auto ;
+    display: flex;
+    flex-direction: column;
+}
+p {
+    text-align: justify;
+}
+/* /GENERAL*/
+
+/* ENTETE */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/abstract-g5f0d3a4c4_1920.jpg);
+    height: 300px;
+}
+/* / ENTETE */
+
+/* NAVIGUATION */
+.nav {
+    font-size: 20px;
+}
+.nav ul li {
+    line-height: 1.5;
+}
+/* / NAVIGUATION */
+
+/* TITRE SECTION */
+h2 {
+    display: flex;
+    margin-top: 20px;
+    padding-left: 5px;
+    background-color: rgb(14, 141, 139);
+    height: 40px;
+    align-items: center;
+}
+/* / TITRE SECTION */
+
+/* SEPARATEUR */
+hr {
+    margin-top: 20px;
+    border: 2px solid;
+}
+/* / SEPARATEUR */
+
+/* FIRST SECTION */
+.firstStep p a {
+    color: rgb(14, 141, 139);
+    text-decoration: none;
+}
+.bigCobblestone a {
+    color: rgb(14, 141, 139);
+    text-decoration: none;
+    float: right;
+}
+/* / FIRST SECTION */
+
+/* SECOND SECTION */
+.imgProg{
+    display: flex;
+    flex-direction: column;
+}
+.imgProg img {
+    width: 100%;
+}
+img {
+    margin-top: 20px;
+    height: 300px;
+}
+h3 {
+    margin-top: 20px;
+}
+.imgProg h3 {
+    text-align: center;
+}
+/* bouton */
+.button {
+    width: 200px;
+    margin: auto;
+    border: 0;
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgb(14, 141, 139);
+}
+/* / bouton */
+/* / SECOND SECTION */
+
+/* THIRD SECTION */
+/* fakeNews */
+.fakeNews {
+    margin-top: 20px;   
+}
+.fakeNews h3 {
+    color: rgb(14, 141, 139);
+}
+.fakeNews h3 strong {
+    color: white;
+}
+/* /fakeNews */
+/* tableau */
+.tableau {
+    display: flex;
+    justify-content: center;
+}
+table {
+    margin-top: 20px; 
+}
+th {
+    background-color:rgb(14, 141, 139) ;
+}
+th, td, tr {
+    border: 2px solid white;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+} /* /tableau */
+/* / THIRD SECTION */
+
+/* FOOTER */
+footer {
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+footer ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+ul {
+    list-style: none;
+}
+footer ul li {
+    color: rgb(14, 141, 139);
+}
+/* / FOOTER */

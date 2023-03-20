@@ -1,0 +1,28 @@
+a {
+    color: pink;
+}
+a:hover {
+    font-size: 1.5rem;
+    color: yellow;
+}
+a:visited {
+    color: palevioletred;
+}
+p::first-letter {
+    font-size: 1.8rem;
+}
+
+b{
+    display: block;
+    border: 1px dashed green;
+}
+p::selection {
+    background-color: yellow;
+}
+.styleDiv {
+    width: 50%;
+    background-color: aqua;
+    border: 15px dashed yellow;
+    margin: 50px;
+    box-shadow: 10px 5px 5px red;
+}
