@@ -1,28 +1,87 @@
 a {
     color: pink;
 }
+
 a:hover {
     font-size: 1.5rem;
     color: yellow;
 }
+
 a:visited {
     color: palevioletred;
 }
+
 p::first-letter {
     font-size: 1.8rem;
 }
 
-b{
+b {
     display: block;
     border: 1px dashed green;
 }
+
 p::selection {
     background-color: yellow;
 }
+
 .styleDiv {
     width: 50%;
     background-color: aqua;
     border: 15px dashed yellow;
     margin: 50px;
     box-shadow: 10px 5px 5px red;
+}
+
+.overflow {
+    width: 500px;
+    background-color: brown;
+    overflow: hidden;
+}
+
+.overflow img {
+    width: 700px;
+}
+
+.position {
+    background-color: blue;
+    height: 700px;
+}
+
+.position img {
+    float: right;
+}
+
+/* POSITION */
+.block {
+    display: flex;
+    width: 100%;
+}
+
+.subBlock {
+    width: 50%;
+}
+
+img {
+    height: 100px;
+    margin: 3px 12px 3px 0px;
+}
+
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+    float: left;
+}
+.center {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.test {
+    float: right;
+    position: relative;
+    bottom: 0;
 }

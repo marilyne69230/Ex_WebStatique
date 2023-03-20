@@ -182,30 +182,22 @@ figcaption {
 }
 /* droite */
 .fiveSec .right {
-    width: 40%;
+    width: 40%;;
 }
 .fiveSec .left {
     width: 60%;
+    background-color: blueviolet;
 }
 .fiveSec .left .items1 {
-    position: relative;
-    top: -90px;
-    left: 0;
+    object-position: left top;
 }
   
 .fiveSec .left .items2 {
-    position: relative;
-    top: -50px;
-    left: 0;
-    margin-top: 50px; 
-    margin-left: 200px; 
+  
 }
 .fiveSec .left .items3 {
-    position: relative;
-    top: -400px;
-    left: 0;
-    z-index: 1; 
-    margin-left: 225px; 
+  z-index: 1;
+  position: relative;
 }
 /* bouton voir plus*/
 .voirplus {
