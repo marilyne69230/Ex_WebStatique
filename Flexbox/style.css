@@ -1,0 +1,26 @@
+
+.block {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.line {
+    display: flex;
+    width: 100%;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+
+.picture{
+    height: 50px;
+    width: 50px;
+}
