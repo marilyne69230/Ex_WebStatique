@@ -1,0 +1,30 @@
+.block {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.block img {
+    width: 100px;
+}
+.items1 {
+    background-color: aqua;
+}
+.items2 {
+    background-color: blueviolet;
+}
+.items3 {
+    background-color: brown;
+}
+.items4 {
+    background-color: darkgreen;
+}
+.items5 {
+    background-color: darkmagenta;
+}
+@media screen and (min-width : 1224px){
+    .block {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+    }
+}
